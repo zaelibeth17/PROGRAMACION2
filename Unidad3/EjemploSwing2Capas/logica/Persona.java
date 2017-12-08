@@ -1,7 +1,7 @@
 package logica;
 
 public class Persona {
-	private int cedula;
+    private int cedula;
     private String nombre;
     private String apellido;
       
@@ -18,14 +18,14 @@ public class Persona {
     }
 
     public int getCedula() {
-		return cedula;
-	}
+	return cedula;
+    }
 
-	public void setCedula(int cedula) {
-		this.cedula = cedula;
-	}
+    public void setCedula(int cedula) {
+	this.cedula = cedula;
+    }
 
-	public String getNombre() {
+    public String getNombre() {
         return nombre;
     }
 
@@ -41,10 +41,10 @@ public class Persona {
         this.apellido = apellido;
     }
 
-	@Override
-	public String toString() {
-		return " [cedula = "+ cedula+ ", " + nombre + " "+ apellido;
-	}
+    @Override
+    public String toString() {
+	return " [cedula = "+ cedula+ ", " + nombre + " "+ apellido;
+    }
     
     
     
