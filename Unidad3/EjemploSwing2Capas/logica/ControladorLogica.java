@@ -19,7 +19,7 @@ public class ControladorLogica {
 
 	
     // Agrego el Alumno a la coleccion.
-	public  void agregarAlumno(Alumno a) {
+    public  void agregarAlumno(Alumno a) {
        
         colAlumnos.agregar(a);
     }
