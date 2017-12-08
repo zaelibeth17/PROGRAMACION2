@@ -13,17 +13,17 @@ public class Alumno extends Persona {
         this.grupo = grupo;
     }
 
-	public String getGrupo() {
-		return grupo;
-	}
+    public String getGrupo() {
+	return grupo;
+    }
 
-	public void setGrupo(String grupo) {
-		this.grupo = grupo;
-	}
+    public void setGrupo(String grupo) {
+	this.grupo = grupo;
+    }
 
-	@Override
-	public String toString() {
-		return  super.toString()+ ", grupo = " + grupo + "]";
-	}
+    @Override
+    public String toString() {
+	return  super.toString()+ ", grupo = " + grupo + "]";
+    }
     
 }
